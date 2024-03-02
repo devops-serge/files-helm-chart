@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Welcome to nginx!</title>
+    </head>
+    <body>
+    <h1 style="color:red;font-size:50px;">Welcome to nginx!</h1>
+    </body>
+    </html>
